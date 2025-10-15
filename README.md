@@ -54,22 +54,7 @@ Interact with the CRUD app via the web UI. The chat sidebar demonstrates AI cont
 
 ## Contributing
 
-Contributions are welcome! Please open issues or pull requests for improvements, bug fixes, or new features. Follow best practices for code style and documentation.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Authors & Acknowledgments
-
-- Maksym Podhrushko
-- Inspired by open source AI and CRUD app communities
-
-## Roadmap
-
-- Add more AI-powered features via MCP
-- Improve UI/UX for chat and context
-- Expand documentation and examples
+Contributions are welcome!
 
 ## Support
 
