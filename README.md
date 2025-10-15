@@ -31,7 +31,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application designe
    ```
 2. Build and start all services:
    ```bash
-   docker-compose up --build
+   docker-compose -f docker-compose.yml up
    ```
 3. Access the frontend at [http://localhost:8080](http://localhost:8080)
 
