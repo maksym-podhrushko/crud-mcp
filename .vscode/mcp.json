@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "my-mcp-server": {
+      "type": "stdio",
+      "command": "java",
+      "cwd": "${workspaceFolder}/mcp-server",
+      "args": ["-jar", "target/mcp-server-0.0.1-SNAPSHOT.jar"]
+    }
+  }
+}

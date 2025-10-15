@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  devcontainer:
+    container_name: Dev-Container
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USER_UID: 1000
+        USER_GID: 1000
+    volumes:
+      - ..:/workspace:cached
+      - ~/.ssh:/home/vscode/.ssh:ro
+      - /var/run/docker.sock:/var/run/docker.sock:rw # Mount Docker socket
+      - /usr/bin/docker:/usr/bin/docker:ro # Mount Docker binary (optional)
+    command: sleep infinity
+    user: vscode
+    network_mode: host
+    privileged: true # Needed for Docker-in-Docker

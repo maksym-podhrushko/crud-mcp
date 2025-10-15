@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "wiki-mcp": {
+      "command": "bash",
+      "args": [
+        "-lc",
+        "cd /workspace/mcp-server && exec java -jar target/mcp-server-0.0.1-SNAPSHOT.jar"
+      ],
+      "env": {}
+    }
+  }
+}
